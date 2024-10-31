@@ -75,7 +75,7 @@ spec:
       - name: auth.username
         value: tekton
       - name: auth.existingSecret
-        value: tekton-results-database
+        value: tekton-results-postgres
       - name: auth.secretKeys.userPasswordKey
         value: db.password
       - name: auth.secretKeys.adminPasswordKey
